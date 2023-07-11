@@ -1,0 +1,267 @@
+/* *{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.header{
+    display: flex;
+    text-align:initial;
+    background-color:#ecdee1dd;
+    
+}
+.Flowers{
+    display:inline-flex;
+    text-align: center;
+} */
+
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0eaec;
+    color: #211d1d;
+    padding-left: 150px;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.header button {
+    background-color: #E55473;
+    color: #ebe8e8;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Featured Flowers Section */
+
+.featured-flowers {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.featured-flowers h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.featured-flowers p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Flower Items Section */
+
+.flower-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-left: 130px;
+    margin-right: 130px;
+
+}
+
+.flower-item {
+    text-align: center;
+}
+
+.flower-item img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.flower-item h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Benefits Section */
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #b5acac;
+    margin-left: 130px;
+    margin-right: 130px;
+
+
+}
+
+.benefit {
+    text-align: center;
+}
+
+.benefit img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.benefit p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Hot Deal Section */
+
+.hot-deal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #E55473;
+    color: #fff;
+}
+
+.hot-deal h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.hot-deal p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.hot-deal button {
+    background-color: #fff;
+    color: #E55473;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Instagram Section */
+
+.instagram {
+    text-align: center;
+    padding: 20px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.instagram img {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: auto;
+}
+
+.instagram h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.instagram p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.image {
+    /* justify-content: space-around; */
+    align-items: center;
+    display: flex;
+    width: 342px;
+    height: 396px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 10px;
+
+}
+
+/* Email Subscription Section */
+
+.email-subscription {
+    position: relative;
+}
+
+.email-subscription img {
+    width: 100%;
+    height: auto;
+    /* margin-left: 130px;
+    margin-right: 130px; */
+}
+
+.email-subscription .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Change the opacity or color as desired */
+    padding: 20px;
+}
+
+.email-subscription h1,
+.email-subscription p {
+    margin: 0;
+}
+
+.email-subscription input[type="text"],
+.email-subscription button {
+    margin-top: 10px;
+
+
+}
+
+
+/* Footer Section */
+
+footer {
+    height: 200px;
+    background-color: #000000;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+footer span {
+    color: #E55473;
+}
